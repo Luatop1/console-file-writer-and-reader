@@ -1,0 +1,5 @@
+file = open("data/text.txt", "w")
+file.write(input("Введите данные"))
+file.close()
+file = open("data/text.txt", "r")
+print(file.read())
